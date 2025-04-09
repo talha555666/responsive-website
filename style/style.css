@@ -98,6 +98,9 @@ main >section{
   font-weight: bold;
   font-size: 45px;
 }
+.section-para{
+  max-width:542px;
+}
 .fact-number{
  font-weight: 400px;
  font-size: 45px;
@@ -139,5 +142,6 @@ main >section{
     flex-direction: column;
     margin-left:30px;
   }
+
   
 }
