@@ -88,12 +88,39 @@ main >section{
 }
 .our-featu{
   margin-left: 130px;
-  max-width: 530px;
+  /* max-width: 530px; */
 }
 .fea{
   color:#FF900E ;
 }
+/* // section will enjoy style */
+.section-title{
+  font-weight: bold;
+  font-size: 45px;
+}
+.fact-number{
+ font-weight: 400px;
+ font-size: 45px;
+}
+.fact-name{
+  font-size: 20px;
+}
 
+.fact{
+  border: 1px solid #FF900E;
+  border-radius: 5px;
+  text-align: center;
+  width: 242px;
+  height: 242px;
+  padding:30px;
+}
+.fact-con{
+  display: flex;
+  gap: 124px;
+}
+.section-para{
+  margin-bottom: 100px;
+}
 
 @media screen and (max-width:576px) {
   .navbar ,.ul{
@@ -107,6 +134,10 @@ main >section{
   }
   .our-featu{
     margin-left: 20px;
+  }
+  .fact-con{
+    flex-direction: column;
+    margin-left:30px;
   }
   
 }
