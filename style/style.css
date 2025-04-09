@@ -124,6 +124,25 @@ main >section{
 .section-para{
   margin-bottom: 100px;
 }
+/* /// sponspors style/ */
+.sponspors-title{
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.Sponspors-con{
+max-width: 542px;
+margin: 0 auto;
+text-align: center;
+}
+.Sponspors-compa{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+
+}
+.Sponspors-compa img{
+  filter: grayscale(100%);
+}
 
 @media screen and (max-width:576px) {
   .navbar ,.ul{
@@ -136,12 +155,21 @@ main >section{
     flex-direction: column;
   }
   .our-featu{
-    margin-left: 20px;
+    margin: 10px;
   }
   .fact-con{
     flex-direction: column;
     margin-left:30px;
+
+  }
+  .Sponspors-compa{
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    gap: 40px;
+
+  }
+  .Sponspors-con{
+ margin-right:25px;
   }
 
-  
 }
