@@ -57,7 +57,7 @@ gap:20px;
 padding:20px 25px ;
 font-weight:600px;
 font-size: 20px;
-color: white;
+color:white;
 border-radius: 10px;
 border: none;
 margin-bottom: 30px;
@@ -92,6 +92,24 @@ main >section{
 }
 .fea{
   color:#FF900E ;
+}
+/* /// article style /// */
+#btn-primary{
+  background-color:#FF900E;
+  padding:45px 42px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.span-1{
+  font-size:65px;
+  font-weight: bold;
+}
+span{
+  font-size: 25px;
+  font-weight: 500px;
+}
+.img-div{
+  width: 100%;
 }
 /* // section will enjoy style */
 .section-title{
@@ -143,9 +161,27 @@ text-align: center;
 .Sponspors-compa img{
   filter: grayscale(100%);
 }
-
+/* /// features style// */
+#sponsors-id{
+  border-left: 5px solid #FF900E;
+  padding-left:20px;
+}
+.features-section{
+  display: flex;
+  gap: 140px;
+}
+.box-title{
+  font-weight: 600px;
+  font-size: 20px;
+}
+.box{
+padding: 30px;
+margin-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
+}
 @media screen and (max-width:576px) {
-  .navbar ,.ul{
+  .navbar ,.ul ,.features-section{
     flex-direction: column;
   }
   .team-img-con{
@@ -171,5 +207,16 @@ text-align: center;
   .Sponspors-con{
  margin-right:25px;
   }
+  #btn-primary{
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+.img-div img{
+  width:100%;
+
+}
+main{
+  overflow:unset;
+}
 
 }
