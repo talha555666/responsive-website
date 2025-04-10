@@ -180,6 +180,18 @@ margin-bottom: 20px;
 border-radius: 8px;
 box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
 }
+/* /// footer style  /// */
+
+.footer-para{
+  font-size: 20px;
+  background-color: #FFF4E7;
+  padding: 30px 410px;
+  border-radius: 8px;
+  width: 700px; 
+  margin: 130px auto;
+  
+}
+
 @media screen and (max-width:576px) {
   .navbar ,.ul ,.features-section{
     flex-direction: column;
@@ -213,10 +225,18 @@ box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
   }
 .img-div img{
   width:100%;
-
 }
+.footer-para{
+  width:70%;
+  padding: 20px 25px;
+  text-align: center;
+  
+ 
+}
+
 main{
   overflow:unset;
 }
 
 }
+
